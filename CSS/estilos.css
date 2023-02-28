@@ -1,14 +1,13 @@
 *{
     margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-    
+	box-sizing: border-box;    
 }
 html{
     scroll-behavior: smooth;
 }
 body{
-    font-family:"Roboto", sans-serif;
+    font-family:'roboto', sans-serif;
     color:#545E6C;
     background:#f5f5f5;
     padding:1.87rem;
@@ -37,12 +36,10 @@ p{
 }
 .container-lateral{
     grid-column:span 3;
-    order: 1;
-    background:#42A8C0;
-    color:#fff;
-    font-size: 14px;
+    background:#199dbb;
+    color:#ffffff;
+    font-size: 0.87rem;
 }
-
 .container-lateral .container-bloque{
     padding:1.87rem;
 }
@@ -51,48 +48,42 @@ p{
 }
 .container-lateral .container-perfil{
     padding:1.87rem;
-    background:rgba(0,0,0,0.2);
-    text-align:center;
-    
+    background:rgba(201, 74, 74, 0.2);
+    text-align:center;    
 }
-.container-lateral .img{
-    
+.container-lateral .img{    
     max-width:6.25rem;
     margin-bottom:0.93rem;
     border:1px solid rgb(63, 100, 100);
     border-radius: 5%;
 }
 .container-lateral .name{
-    font-size:32px;
+    font-size:2rem;
     font-weight:900;
     margin-bottom:0.625rem;
 }
 .container-lateral .sub-name{
     color:rgba(255,255,255,0.6);
-    font-size:16px;
+    font-size:1rem;
     font-weight:400;
 }
-
 .container-lateral .contacto-list .fas,
 .container-lateral .contacto-list .fab,
 .container-lateral .contacto-list .far{
     margin-right:0.3125em;
-    font-size:20px;
+    font-size:1.25rem;
     vertical-align:middle;
 }
-
 .container-lateral .contacto-list li{
     margin-bottom:1.5625rem;
     list-style: none;
 }
-
 .container-lateral .contacto-list li:last-child{
     margin-bottom:0;
 }
-
 .container-lateral .container-bloque-titulo{
     text-transform:uppercase;
-    font-size:16px;
+    font-size:1rem;
     margin-bottom:0.9375rem;
 }
 .container-lateral .container-educacion .item{
@@ -105,17 +96,11 @@ p{
 }
 .container-lateral .container-educacion .escuela,
 .container-lateral .container-educacion .año{
-    color:rgba(255,255,255,0.6);
-        
+    color:rgba(255,255,255,0.6);        
 }
-
 .container-lateral .container-educacion .item:last-child{
     margin-bottom:0;
 }
-
-
-
-
 .container-lateral .idiomas-list li{
     margin-bottom:0.625rem;
     list-style: circle;
@@ -127,37 +112,25 @@ p{
 .container-lateral .idiomas-list .idioma-desc {
     color:rgba(255,255,255,0.6)
 }
-.container-lateral .hobbies-list li{
+.container-lateral .intereses-list li{
     list-style: none;
-    font-size: 14px;
+    font-size: 0.87rem;
     margin-bottom: 0.9375rem;
 }
-.container-lateral .hobbies-list li:last-child{
+.container-lateral .intereses-list li:last-child{
     margin-bottom:0
 }
-.container-lateral .hobbies-list .fas{
-    font-size: 14px;
+.container-lateral .intereses-list .fas{
+    font-size: 0.87rem;
     margin-right: 0.75em;
 }
 .contacto{
-    padding: 1.875rem;
-    
+    padding: 1.875rem;    
 }
-
-
-
-
-
-
-
-
-
-
-
 .container-central{
     grid-column: span 7;
     background:white;
-    font-size: 14px;    
+    font-size: 0.87rem;    
 }
 .header{
     background:#f5f5f5;
@@ -169,86 +142,87 @@ nav{
 .container-central nav ul{
     display: flex;
     justify-content:space-between;
-    padding: 30px;  
+    padding: 1.87rem;  
     list-style: none;  
     text-transform: uppercase;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }  
 .container-central li{
     margin: 0 .75rem;
 }
 .container-central .desc li{
      margin: 0 .75rem;
-     padding-top: 15px;
-     padding-bottom: 1px;
+     padding-top: 0.93rem;
+     padding-bottom: 0.063rem;
      text-decoration: underline;
+     list-style-position: inside;
 }
 .container-central .nav-enlace{
     color: #2d7788;
 }
-
-
 .container-principal{
     background:#fff;
-    padding:60px;
+    padding:3.75rem;
 }
 .container-principal .seccion-titulo{
     text-transform:uppercase;
-    font-size:20px;
+    font-size:1.25rem;
     font-weight:500;
     color:#2d7788;
     position:relative;
-    margin-bottom:20px;
+    margin-bottom:1.25rem;
 }
 .container-principal .seccion{
-    margin-bottom:60px
+    margin-bottom:2.5rem;
 }
 .container-principal .seccion-experiencia .item{
-    margin-bottom:30px
+    margin-bottom:1.87rem;
 }
-.container-principal .upper-row{
+.container-principal .trabajo{
     position:relative;
     overflow:hidden;
-    margin-bottom:2px
+    margin-bottom:0.125rem;
 }
 .container-principal .trabajo-titulo,
 .container-principal .ciclo{
     color:#3F4650;
-    font-size:16px;
+    font-size:1rem;
     margin-top:0;
     margin-bottom:0;
-    font-weight:500
+    font-weight:500;
 }
 .container-principal .año{
     position: absolute;
     top: 0;
     right: 0;
-    color:#97AAC3
+    color:#97AAC3;
 }
-.container-principal .empresa{
+.container-principal .trabajo-subtitulo{
     margin-bottom:0.62rem;
     color:#97AAC3
 }
-
 .barra-porcentaje {
     justify-items: center;
 }
 .container-habilidades .item{
-    margin-bottom:15px;
-    overflow:hidden
+    margin-bottom:0.93rem;
+    overflow:hidden;
+}
+.container-habilidades .item img{
+        width: 1.5rem;
+        height: 1.5rem;     
 }
 .container-habilidades .titulo-habilidades{
-    font-size:14px;
+    font-size:0.87rem;
     margin-top:0;
-    margin-bottom:12px
+    margin-bottom:0.75rem;
 }
 .container-habilidades .barra{
-    height:12px;
+    height:0.75rem;
     background:#f5f5f5
 }
 .container-habilidades .barra-porcentaje{
-    height:12px;
+    height:0.75rem;
     background:#7bc2d3;
     display: flex;
     justify-content: space-around;
@@ -269,7 +243,7 @@ footer{
 .footer .columna{
     line-height:1.6;
     color:#545E6C;
-    font-size:13px
+    font-size:0.81rem;
 }
 .footer .columna-2{
     text-align: right;
@@ -295,8 +269,7 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: -1;
-    
+    z-index: -1;    
 }
 .ir-arriba-button i{
     position: absolute;
@@ -306,7 +279,6 @@ footer{
     transform: translate(-50%, -50%) scale(0);
     font-size: 18px;
     color: rgb(255, 255, 255);  
-
 }
 .show{
     z-index: 10;
@@ -334,104 +306,56 @@ footer{
         height: 50px;
     }
 }
-/*
-@media(max-width:1200px){
-
-}
 
 @media(max-width:1010px){
-   
+    nav{
+        font-size: 0.81rem;
+    }  
 }
-
 @media(max-width:768px){
-  
-}
-
-@media(max-width:576px){
-
-}*/
-
-
-
-@media (max-width: 767px){
     body{
-        padding:0
+        padding: 0;
     }
     .contenedor{
-        display:block
+        display:block;
     }
     .container-lateral{
         position:static;
         width:inherit;
-        text-align: center;
         padding: 1rem;
+        text-align: center;
     }
-    
+    .container-lateral .img{
+        border: none;
+        border-radius: 50%;
+    }
+    .container-lateral .name{
+        color: rgba(255,255,255,0.6);
+    }
+    .container-lateral .sub-name{
+        color:white;
+    } 
      .container-lateral .container-bloque{
         padding: 1rem;
-
-     }
+    }
     .container-principal{
-        padding:30px
+        padding:30px;
+        font-size: 0.87rem;
     }
     .container-principal .año{
         position:static;
         display:block;
-        margin-top:5px
+        margin-top:5px;
     }
-    .container-principal .upper-row{
-        margin-bottom:0
+    .container-central nav ul{
+        display: none;              
     }
-}
-@media (min-width: 992px){
-    .skillset .level-title{
-        display:inline-block;
-        float: left;
-        width:30%;
-        margin-bottom:0
-    }
-    .skillset .level-bar{
-        display:inline-block;
-        width:70%;
-        float:left;
-        position:relative;
-        top:1px
-     }
-}
-
-@media print{
-    @page{
-        size:A4
-    }
-    body{
-        font-size:12pt
-    }
-    ir .img{
-        filter:grayscale(1);
-        -webkit-filter:greyscale(1)
-    }
-    .container-principal .año{
-        float:right;
-        color:black !important;
-       -webkit-print-color-adjust:exact
-    }
-    .container-lateral{
-        position:static;
-        float:right;
-        width:40%;
-        -webkit-print-color-adjust:exact
-    }
-    .remove-container.container-bloque{
-        display:none
-    }
+    nav{
+        border-bottom:none;
+    }    
     footer{
-        display:none
-    }
-    .skillset .level-bar-inner{
-        background-color:black !important;
-        -webkit-print-color-adjust:exact;
-    }
-    .fa-inverse,.fa-inverse:after,.fa-inverse:before{
-        color:#ffffff !important
-    }
+        padding-top:0.81rem;
+        margin-left: 4rem;
+        margin-right: 4rem; 
+    }     
 }

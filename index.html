@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="Img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="CSS/estilos.css">
-    <title>Mi Curriculum Vitae</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Proyecto CV</title>
 </head>
 <body>
     <div class="contenedor">
@@ -24,8 +27,10 @@
                     Curriculum Vitae
                 </h2>
             </div>
-            <a id="contacto"></a>
+            
             <div class="container-contacto container-bloque">
+                <a id="contacto"></a>
+                <br>
                 <h2 class="container-bloque-titulo">
                     datos de contacto             
                 </h2>
@@ -45,7 +50,7 @@
                     <li class="telefono">
                         <i class="fas fa-phone"></i>
                         <a href="tel:11 5942 5456">
-                            11 5942 5456
+                            •11 5942 5456•
                         </a>
                     </li>
                 </ul>
@@ -69,14 +74,15 @@
                     </li>
                     <li class="github">
                         <i class="fab fa-github"></i>
-                        <a href="https://github.com/" target="_blank">
+                        <a href="https://github.com/elian-bb" target="_blank">
                             Github
                         </a>
                     </li>                    
                 </ul>
-            </div>
-            <a id="educacion"></a>
+            </div>            
             <div class="container-educacion container-bloque">
+                <a id="educacion"></a>
+                <br>
                 <h2 class="container-bloque-titulo">
                     Educacion              
                 </h2>
@@ -128,11 +134,11 @@
                     </li>
                 </ul>
             </div>
-            <div class="hobbies-container container-bloque">
+            <div class="intereses-container container-bloque">
                 <h2 class="container-bloque-titulo">
-                    Hobbies
+                    intereses
                 </h2>
-                <ul class="hobbies-list">
+                <ul class="intereses-list">
                     <li>
                         <i class="fas fa-futbol"></i>
                         Futbol
@@ -157,22 +163,22 @@
                 </h2>
                 <i class="fas fa-file-pdf"></i>
                 <a href="ejemplo.pdf" target="_blank">PDF</a>
-            </div>
-            <!--
-            <form class="cantactar">
-                <div><label>Tu Nombre:</label><br><input type='text' value=''></div>
-                <div><label>Tu Email:</label><br><input type='text' value=''></div>
-                <div><label>Asunto:</label><br><input type='text' value=''></div>
-                <div><label>Mensaje:</label><br><textarea rows='10'></textarea></div>
-                <div><input type='submit' value='Enviar Mensaje'></div>
-              </form>
-              -->           
+            </div>                     
         </div>
-
         <div class="container-central">
             <header class="header">
                 <nav>
                     <ul>
+                        <li>
+                            <a href="#contacto" class="nav-enlace">
+                                Contacto
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#educacion" class="nav-enlace">
+                                Educacion
+                            </a>                            
+                        </li> 
                         <li>
                             <a href="#perfil-laboral" class="nav-enlace">
                                 Perfil Laboral
@@ -187,28 +193,19 @@
                             <a href="#experiencia" class="nav-enlace">
                                 Experiencia
                             </a>
-                        </li>
-                        <li>
-                            <a href="#contacto" class="nav-enlace">
-                                Contacto
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#educacion" class="nav-enlace">
-                                Educacion
-                            </a>                            
-                        </li>                
+                        </li>                                         
                     </ul>
                 </nav>
-            </header>
-            <a id="perfil-laboral"></a>
-            <div class="container-principal">
+            </header>            
+            <div class="container-principal">                
+                <a id="perfil-laboral"></a>
+                <br>
                 <section class="seccion seccion-perfil">
                     <h2 class="seccion-titulo">
                         <span class="fa-stack fa-xs">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fas fa-user fa-stack-1x fa-inverse"></i>  
-                        </span>
+                        </span>                                                
                         Perfil Laboral
                     </h2>
                     <div class="perfil-desc">
@@ -219,10 +216,11 @@
                             desde mi lugar y desde mi conocimiento, resolver eficientemente 
                             problemas, metas y objetivos que se presenten.
                         </p>
-                    </div>
-                    <a id="objetivo-personal"></a>
+                    </div>                    
                 </section>
-
+                <hr>
+                <a id="objetivo-personal"></a>
+                <br>
                 <section class="seccion seccion-objetivo">
                     <h2 class="seccion-titulo">
                         <span class="fa-stack fa-xs">
@@ -238,21 +236,25 @@
                             logro de las metas y los objetivos generales de la empresa, 
                             a fin de adquirir nuevas experiencias y superación personal.
                         </p>
-                    </div>
-                    <a id="experiencia"></a>                  
+                    </div>                                      
                 </section>
-
+                <hr>
+                <a id="experiencia"></a>
+                <br>                 
                 <section class="seccion seccion-experiencia">
+                    
                     <h2 class="seccion-titulo">
+                        
                         <span class="fa-stack fa-xs">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
                         </span>
+                        
                         Experiencia
                     </h2>
                     <div class="item">
-                        <div class="meta">
-                            <div class="upper-row">
+                        <div class="container-trabajo">
+                            <div class="trabajo">
                                 <h3 class="trabajo-titulo">
                                     LaFabrica S.A
                                 </h3>
@@ -260,7 +262,7 @@
                                     2021 - Presente
                                 </div>
                             </div>
-                            <div class="empresa">
+                            <div class="trabajo-subtitulo">
                                 Farbrica de Luminarias
                             </div>                            
                         </div>
@@ -275,8 +277,8 @@
                         </div>                      
                     </div>
                     <div class="item">
-                        <div class="meta">
-                            <div class="upper-row">
+                        <div class="container-trabajo">
+                            <div class="trabajo">
                                 <h3 class="trabajo-titulo">
                                     El Oulet del Pañal
                                 </h3>
@@ -284,7 +286,7 @@
                                     2018 - 2021
                                 </div>                            
                             </div>
-                            <div class="empresa">
+                            <div class="trabajo-subtitulo">
                                 Venta y entrega de Pañales
                             </div>
                         </div>
@@ -302,8 +304,8 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="meta">
-                            <div class="upper-row">
+                        <div class="container-trabajo">
+                            <div class="trabajo">
                                 <h3 class="trabajo-titulo">
                                     Telecentro S.A
                                 </h3>
@@ -311,7 +313,7 @@
                                     2015 - 2018
                                 </div>                            
                             </div>
-                            <div class="empresa">
+                            <div class="trabajo-subtitulo">
                                 Relevamiento de Edificios
                             </div>
                         </div>
@@ -327,8 +329,8 @@
                         </div>
                     </div>
                     <div class="item">
-                        <div class="meta">
-                            <div class="upper-row">
+                        <div class="container-trabajo">
+                            <div class="trabajo">
                                 <h3 class="trabajo-titulo">
                                     Credencial Argentina S.A
                                 </h3>
@@ -336,7 +338,7 @@
                                     2010 - 2013
                                 </div>
                             </div>
-                            <div class="empresa">
+                            <div class="trabajo-subtitulo">
                                 Lojack, rastreo vehicular
                             </div>
                         </div>
@@ -351,7 +353,7 @@
                         </div>                            
                     </div>                   
                 </section>
-
+                <hr><br>
                 <section class="seccion seccion-habilidades">
                     <h2 class="seccion-titulo">
                         <span class="fa-stack fa-xs">
@@ -363,7 +365,7 @@
                     <div class="container-habilidades">
                         <div class="item">
                             <h3 class="titulo-habilidades">
-                                HTML
+                                <img src="Img/Imagenes Habilidades/html5.png" alt="Img Html">  HTML 
                             </h3>
                             <div class="barra">
                                 <div class="barra-porcentaje" role="progressbar" style="width:78%">
@@ -373,7 +375,7 @@
                         </div>
                         <div class="item">
                             <h3 class="titulo-habilidades">
-                                CSS
+                                <img src="Img/Imagenes Habilidades/css.png" alt="Img CSS">  CSS
                             </h3>
                             <div class="barra">
                                 <div class="barra-porcentaje" role="progressbar" style="width:65%">
@@ -383,27 +385,17 @@
                         </div>
                         <div class="item">
                             <h3 class="titulo-habilidades">
-                                JAVASCRIPT
+                                <img src="Img/Imagenes Habilidades/javascript.png" alt="Img JavaScript">  JS
                             </h3>
                             <div class="barra">
                                 <div class="barra-porcentaje" role="progressbar" style="width:55%">
                                     55%
                                 </div>
                             </div>
-                        </div>
+                        </div>                        
                         <div class="item">
-                            <h3 class="titulo-habilidades">
-                                PHP
-                            </h3>
-                            <div class="barra">
-                                <div class="barra-porcentaje" role="progressbar" style="width:45%">
-                                    45%
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <h3 class="titulo-habilidades">
-                                PYTHON
+                            <h3 class="titulo-habilidades"> 
+                                <img src="Img/Imagenes Habilidades/python.jpg" alt="Img Python"> PYTHON                              
                             </h3>
                             <div class="barra">
                                 <div class="barra-porcentaje" role="progressbar" style="width:60%">
@@ -413,7 +405,7 @@
                         </div>
                         <div class="item">
                             <h3 class="titulo-habilidades">
-                                C++
+                                <img src="Img/Imagenes Habilidades/c++.png" alt="Img C++">  C++ 
                             </h3>
                             <div class="barra">
                                 <div class="barra-porcentaje" role="progressbar" style="width:40%">
@@ -421,16 +413,19 @@
                                 </div>
                             </div>
                         </div>
-
+                        <div class="item">
+                            <h3 class="titulo-habilidades">
+                                <img src="Img/Imagenes Habilidades/php.png" alt="Img Php">  PHP 
+                            </h3>
+                            <div class="barra">
+                                <div class="barra-porcentaje" role="progressbar" style="width:45%">
+                                    45%
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-
-
                 </section>
-
-
             </div>
-
         </div>
     </div>
     <div class="ir-arriba-container">
